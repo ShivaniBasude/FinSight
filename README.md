@@ -1,60 +1,68 @@
-📌 FinSight — Personal Finance Dashboard
+# 📌 FinSight — Personal Finance Dashboard
 
-🚀 Overview
+## 🚀 Overview
 
-FinSight is a modern personal finance dashboard built with React and TypeScript.
+FinSight is a modern personal finance dashboard built with React and TypeScript.  
 It helps users track transactions, analyze spending patterns, and manage savings goals in an intuitive and visual way.
 
-✨ Features
-📊 Dashboard with financial summary
-📈 Interactive charts (monthly trends & category breakdown)
-💸 Transaction management (add, edit, delete)
-🔍 Search, filter, and sort transactions
-🎯 Savings goals with progress tracking
-🔐 Role-based UI (Admin / Viewer)
-🌙 Dark mode support
-💾 Local storage persistence
-🚀 Export data (CSV)
+---
 
+## ✨ Features
 
-🧱 Tech Stack
-->React + TypeScript
-->Context API (state management)
-->Recharts (data visualization)
-->CSS (custom styling)
+- 📊 Dashboard with financial summary  
+- 📈 Interactive charts (monthly trends & category breakdown)  
+- 💸 Transaction management (add, edit, delete)  
+- 🔍 Search, filter, and sort transactions  
+- 🎯 Savings goals with progress tracking  
+- 🔐 Role-based UI (Admin / Viewer)  
+- 🌙 Dark mode support  
+- 💾 Local storage persistence  
+- 🚀 Export data (CSV)
 
+---
 
-📊 Key Highlights
-->Dynamic charts that adapt to user data
-->Responsive layout for all screen sizes
-->Clean and modular component structure
-->Real-time updates across dashboard
+## 🧱 Tech Stack
 
+- React + TypeScript  
+- Context API (state management)  
+- Recharts (data visualization)  
+- CSS (custom styling)
 
-🎯 Goals Feature
+---
+
+## 📊 Key Highlights
+
+- Dynamic charts that adapt to user data  
+- Responsive layout for all screen sizes  
+- Clean and modular component structure  
+- Real-time updates across dashboard  
+
+---
+
+## 🎯 Goals Feature
+
 Users can:
-->Create savings goals
-->Track progress visually
-->Add savings dynamically
-->Persist data across sessions
 
-🛠️ Setup Instructions
-->git clone https://github.com/your-username/finsight.git
-->cd finance
-->npm install
-->npm run dev
+- Create savings goals  
+- Track progress visually  
+- Add savings dynamically  
+- Persist data across sessions  
+
+---
+
+## 🛠️ Setup Instructions
+
+```bash
+git clone https://github.com/your-username/finsight.git
+cd finsight
+npm install
+npm run dev
+
+---
+
+## 🚀 Future Improvements
+- API integration
+- Authentication system
+- Advanced analytics
 
 
-📁 Project Structure
-src/
- ├── components/
- ├── pages/
- ├── context/
- ├── charts/
- ├── styles/
-
- 
-🚀 Future Improvements
-->API integration
-->Authentication system
-->Advanced analytics
