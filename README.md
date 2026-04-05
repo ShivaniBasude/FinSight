@@ -58,11 +58,5 @@ cd finsight
 npm install
 npm run dev
 
----
-
-## 🚀 Future Improvements
-- API integration
-- Authentication system
-- Advanced analytics
 
 
