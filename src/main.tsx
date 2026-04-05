@@ -8,7 +8,7 @@ import "./style.css";
 const rootElement = document.getElementById("root");
 if (rootElement) {
   ReactDom.createRoot(rootElement).render(
-    <BrowserRouter>
+    <BrowserRouter basename="/finsight">
       <AppProvider>
         <App />
       </AppProvider>

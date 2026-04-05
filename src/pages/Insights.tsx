@@ -40,7 +40,8 @@ const Insights = () => {
         <div className="flip-card">
           <div className="flip-card-inner">
              <div className="flip-card-front">
-              <h2>Monthly Expenditure</h2>
+              <h2>Monthly Expenditure <i className="fa-solid fa-chart-simple"></i></h2>
+              <p>(Hover to analyze)</p>
              
              </div>
 
@@ -54,7 +55,8 @@ const Insights = () => {
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
-              <h2>Expenditure Category Analysis</h2>
+              <h2>Expenditure Category Analysis <i className="fa-solid fa-chart-pie"></i></h2>
+              <p>(Hover to analyze)</p>
               
             </div> 
 

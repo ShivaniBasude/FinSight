@@ -431,6 +431,11 @@ th {
   color: #3B0270;
 }
 
+.flip-card p{
+  font-size: 15px;
+  margin-top : -5px;
+}
+
 .flip-card-inner {
   position: relative;
   width: 100%;

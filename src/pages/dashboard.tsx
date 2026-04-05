@@ -21,8 +21,8 @@ export default function Dashboard() {
                 <div className="cards">
                     
                     <div className="card"><h3>Balance : </h3><p>${balance}</p></div>
-                    <div className="card"><h3>Income :</h3> <p>${income}</p></div>
-                    <div className="card"><h3>Expenses :</h3><p> ${expenses}</p></div>
+                    <div className="card"><h3>Income <i className="fa-solid fa-arrow-trend-up"></i>:</h3> <p>${income}</p></div>
+                    <div className="card"><h3>Expenses <i className="fa-solid fa-arrow-trend-down"></i>:</h3><p> ${expenses}</p></div>
                 </div>
 
                 <div className="chart-container">
