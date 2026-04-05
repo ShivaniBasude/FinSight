@@ -13,8 +13,8 @@ export default function Navbar () {
                 <RoleSwitcher />
 
                 <div className="theme-change">
-                    <button className={`theme-btn ${mode==="dark" ? "dark" : ""} ${mode==="dark" ? "active" : ""}`} onClick={() => setMode(mode==="light" ?  "dark" : "light")}>🌙</button>
-                    <button className={`theme-btn ${mode==="light" ? "light" : ""} ${mode==="light" ? "active" : ""}` } onClick={() => setMode(mode==="dark" ?  "light" : "dark")}>☀️</button>
+                    <button className={`theme-btn ${mode==="dark" ? "dark" : ""} ${mode==="dark" ? "active" : ""}`} onClick={() => setMode(mode==="light" ?  "dark" : "light")}><i className="fa-solid fa-moon"></i></button>
+                    <button className={`theme-btn ${mode==="light" ? "light" : ""} ${mode==="light" ? "active" : ""}` } onClick={() => setMode(mode==="dark" ?  "light" : "dark")}><i className="fa-solid fa-sun"></i></button>
                 </div>
             </div>
         </div>

@@ -43,7 +43,7 @@ export default function TransactionForm() {
 
     return(
         <form onSubmit={handleSubmit} className='form'>
-            <input type="date" name="date" value={formData.date} onChange={handleChange} />
+            <input type="date" placeholder="DD-MM-YYYY" name="date" value={formData.date} onChange={handleChange} />
 
             <input type="text" name="amount" placeholder='Amount' value={formData.amount} onChange={handleChange} />
 
