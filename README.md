@@ -1,73 +1,60 @@
-# React + TypeScript + Vite
+📌 FinSight — Personal Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Overview
 
-Currently, two official plugins are available:
+FinSight is a modern personal finance dashboard built with React and TypeScript.
+It helps users track transactions, analyze spending patterns, and manage savings goals in an intuitive and visual way.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+✨ Features
+📊 Dashboard with financial summary
+📈 Interactive charts (monthly trends & category breakdown)
+💸 Transaction management (add, edit, delete)
+🔍 Search, filter, and sort transactions
+🎯 Savings goals with progress tracking
+🔐 Role-based UI (Admin / Viewer)
+🌙 Dark mode support
+💾 Local storage persistence
+🚀 Export data (CSV)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🧱 Tech Stack
+React + TypeScript
+Context API (state management)
+Recharts (data visualization)
+CSS (custom styling)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+📊 Key Highlights
+Dynamic charts that adapt to user data
+Responsive layout for all screen sizes
+Clean and modular component structure
+Real-time updates across dashboard
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+🎯 Goals Feature
+Users can:
+Create savings goals
+Track progress visually
+Add savings dynamically
+Persist data across sessions
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+🛠️ Setup Instructions
+git clone https://github.com/your-username/finsight.git
+cd finance
+npm install
+npm run dev
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+📁 Project Structure
+src/
+ ├── components/
+ ├── pages/
+ ├── context/
+ ├── charts/
+ ├── styles/
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+ 
+🚀 Future Improvements
+API integration
+Authentication system
+Advanced analytics
