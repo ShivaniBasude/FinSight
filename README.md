@@ -18,31 +18,31 @@ It helps users track transactions, analyze spending patterns, and manage savings
 
 
 🧱 Tech Stack
-React + TypeScript
-Context API (state management)
-Recharts (data visualization)
-CSS (custom styling)
+->React + TypeScript
+->Context API (state management)
+->Recharts (data visualization)
+->CSS (custom styling)
 
 
 📊 Key Highlights
-Dynamic charts that adapt to user data
-Responsive layout for all screen sizes
-Clean and modular component structure
-Real-time updates across dashboard
+->Dynamic charts that adapt to user data
+->Responsive layout for all screen sizes
+->Clean and modular component structure
+->Real-time updates across dashboard
 
 
 🎯 Goals Feature
 Users can:
-Create savings goals
-Track progress visually
-Add savings dynamically
-Persist data across sessions
+->Create savings goals
+->Track progress visually
+->Add savings dynamically
+->Persist data across sessions
 
 🛠️ Setup Instructions
-git clone https://github.com/your-username/finsight.git
-cd finance
-npm install
-npm run dev
+->git clone https://github.com/your-username/finsight.git
+->cd finance
+->npm install
+->npm run dev
 
 
 📁 Project Structure
@@ -55,6 +55,6 @@ src/
 
  
 🚀 Future Improvements
-API integration
-Authentication system
-Advanced analytics
+->API integration
+->Authentication system
+->Advanced analytics
