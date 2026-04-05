@@ -7,7 +7,7 @@ export default function Navbar () {
 
     return (
         <div className="navbar">
-            <h3> Finance Dashboard </h3>
+            <h3> FinSight </h3>
             
             <div className="btns-sec">
                 <RoleSwitcher />
